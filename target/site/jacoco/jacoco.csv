@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+dependable-task-api,com.example.dependabletaskapi.exception,GlobalExceptionHandler,0,18,0,0,0,5,0,3,0,3
+dependable-task-api,com.example.dependabletaskapi.exception,TaskNotFoundException,0,5,0,0,0,2,0,1,0,1
+dependable-task-api,com.example.dependabletaskapi,DependableTaskApiApplication,5,3,0,0,2,1,1,1,1,1
+dependable-task-api,com.example.dependabletaskapi.entity,Task,0,33,0,0,0,15,0,8,0,8
+dependable-task-api,com.example.dependabletaskapi.controller,TaskController,0,26,0,0,0,8,0,5,0,5
+dependable-task-api,com.example.dependabletaskapi.service,TaskService,0,59,0,2,0,13,0,7,0,6
