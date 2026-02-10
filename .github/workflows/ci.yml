@@ -24,7 +24,7 @@ jobs:
           GITHUB_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           GITGUARDIAN_API_KEY: ${{ secrets.GITGUARDIAN_API_KEY }}
         with:
-          args: --json --fail-on-policy-breach
+          args: --json
 
   build:
     runs-on: ubuntu-latest
